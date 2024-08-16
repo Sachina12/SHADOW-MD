@@ -71,7 +71,7 @@ console.log('Bot connected to SHADOW-MD  ✅')
 
 let up = `SHADOW-MD connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: up })
 
 }
 })
