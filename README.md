@@ -6,7 +6,7 @@
 
 𝗣𝗜𝗥𝗘 𝗖𝗢𝗗 𝗦𝗛𝗔𝗗𝗢𝗪-𝗠𝗗 ✅💻🔰
 
-<a href="https://friendly-space-fiesta-69767r56vw7c5j4g-8000.app.github.dev/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
+<a href="https://pair-web-public.koyeb.app/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
 
 
   <p align="center">
