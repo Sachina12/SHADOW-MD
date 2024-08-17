@@ -12,8 +12,6 @@
 
 <hr>
 
-<a href="https://seesionid-59f4e1494799.herokuapp.com/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
-
 ＣＲＥＡＴＥＤ ＢＹ 𝗟𝗔𝗞𝗦𝗛𝗔𝗡 𝗗𝗔𝗠𝗔𝗬𝗔𝗡𝗧𝗛𝗔🔰💻
 
 ## HOW TO DEPLOY 🧚 𝚂𝙷𝙰𝙳𝙾𝚆 - ＭＤ 🧚
