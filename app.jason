@@ -1,7 +1,7 @@
 {
   "name": "SHADOW-MD",
-  "description": "Javascript WhatsApp bot made by SHADOW-MD",
-  "logo": "https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg",
+  "description": "Javascript WhatsApp bot made by SHADOW",
+  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
   "keywords": ["bot"],
   "success_url": "/",
 
