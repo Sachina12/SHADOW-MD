@@ -1,7 +1,6 @@
 const {cmd , commands} = require('../command')
-const fg = require('apy-dylux')
-const Yts = require('Yt-search')
-
+const fg = require('api-dylux')
+const yts = require('yt-search')
 
 cmd({
     pattern: "song",
@@ -11,38 +10,81 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("please give me url or title")
-const search = await Yts(q)
-const data = search.videos[0];
+if(!q) return reply("please give me url...")
+const search = await yts(q)
+const data = search.videos[0]
 const url = data.url
 
-let dese = `
-🔰 *SHADOW-MD SONG DOWNLOADER* 🔰
+let desc = `*🔰 SHADOW-MD SONG DOWNLOADER 🔰*
 
-title: ${data.title}
-description: ${data.description}
-time: ${data.timestamp}
-ago: ${data.ago}
-views: ${data.views}
+🔰 TITLE - ${data.title}
 
-MADE BY SHADOW-MD 💻✅
-'
-await conn.sendmessage(from,{image:{url:data.thumbnail},caption:dese},{quoted:mek});
+🔰 VIEWS - ${data.views}
+
+🔰 DESCRIPTION - ${data.description}
+
+🔰 TIME - ${data.timestamp}
+
+🔰 AGO - ${data.ago}
+
+MADE BY SHADOW-MD✅
+`
+await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
 
-let down = await fg.yta(url)
-let downloadurl = down.dl_url
+let down = await fg.yta(url)  
+let downloadUrl = down.dl_url
 
-//send audio message
-awaite conn.sendmessage(from,{audio: {url:downloadurl},mimetype:"audio/mpeg"},{quoted:mek});
-
-
-
-
-
+//send audio
+await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"MADE BY SHADOW-MD"},{quoted:mek})
 }catch(e){
-console.log(e)
 reply(`${e}`)
 }
-})    
+})
+
+//===========video-dl===========
+
+cmd({
+    pattern: "video",
+    desc: "download videos",
+    category: "download",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+if(!q) return reply("please give me url...")
+const search = await ytv(q)
+const data = search.videos[0]
+const url = data.url
+
+let desc = `*🔰 SHADOW-MD VIDEO DOWNLOADER 🔰*
+
+🔰 TITLE - ${data.title}
+
+🔰 VIEWS - ${data.views}
+
+🔰 DESCRIPTION - ${data.description}
+
+🔰 TIME - ${data.timestamp}
+
+🔰 AGO - ${data.ago}
+
+MADE BY SHADOW-MD✅
+`
+await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
+
+//download video
+
+let down = await fg.yta(url)  
+let downloadUrl = down.dl_url
+
+//send video
+await conn.sendMessage(from,{video:{url: downloadUrl},mimetype:"video/mp4"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"MADE BY SADIYA-MD"},{quoted:mek})
+
+}catch(a){
+reply(`${a}`)
+}
+})
