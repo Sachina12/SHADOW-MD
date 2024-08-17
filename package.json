@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name SHADOW-MD",
-    "stop": "pm2 stop SADIYA-MD",
+    "stop": "pm2 stop SHADOW-MD",
     "restart": "pm2 restart SHADOW-MD"
   },
   "dependencies": {
