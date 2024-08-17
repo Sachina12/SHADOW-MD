@@ -8,7 +8,9 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-reply("*🌐 SADIYA-MD විධාන මෙනුවයි.*\n\n▁▁▁▁▁▁▁Commands▁▁▁▁▁▁▁▁\n\n*🕹️ Command - .alive*\n\n*🚀 බොට් ඔන්ලයින්ද බැලීම*\n\n*🕹️ Command - .menu*\n\n*🚀 බොට්ගෙ විධාන මෙනුව ලබාගැනීම*\n\n*🕹️ Command - .song*\n\n*🚀 සිංදු බාගත කිරීම*\n\n*🕹️ Command - .video*\n\n*🚀 වීඩියෝ බාගත කිරීම*\n\n▁▁▁▁▁▁SADIYA MD▁▁▁▁▁▁▁▁")}catch(e){
+reply("🔰📍SHADOW-MD_වෙතින් අපි ඔබව සාදරයෙන් පිලිගන්නෙමු📍🔰\n\n🔰|+++++commands menu+++++|🔰\n\n🖇️ command- .alive 🔖\n\n📍බොට් ඔන්ලයින් දැයි පරික්ශාව📍\n\n🖇️command- .menu 🔖\n\n
+📍බොට් විදාන මෙනුව ලබා ගැනිම📍/n/n🖇️command- .song 🔖
+📍සිංදු ඩවුන්ලොඩ් කිරිම📍/n/n🖇️command- .video 🔖/n/n📍විඩියො ඩවුන්ලොඩ් කිටිම📍/n/n🔰#SHADOW_MD 💫/n/n⚡SHADOW_MD MAIN OWENER ⚡/n/n🔰Lakshan damayantha 💻✅")}catch(e){
 console.log(e)
 reply(`${e}`)
 }
