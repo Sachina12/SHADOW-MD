@@ -4,6 +4,7 @@
 
 ## FIXING  ALL ERRORS IN NEXT UPDATE WAIT..... 
 
+#BOT PIRE COD ✅💻🔰#
 
 <a href="https://musical-guide-g45jg7w6pgpjhw9wp-8000.app.github.dev/"><img src="https://i.ibb.co/5BGSVZw/pair-code-btn-zusyco.png" alt="PAIR-CODE" border="2" width="170" height="41" ></a>
 
