@@ -73,7 +73,7 @@ let up = `*SHADOW MD Connected Successful ✅*\n\n*🤖🔰 Prefix* - ${prefix}\
 
 conn.sendMessage(config.SUDO_NB + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: up })
 
-let uq = `SHADOW-MD connected to whatsapp💻💕✅`;
+let uq = `SHADOW-MD connected to whatsapp`;
 
 conn.sendMessage("94767910958@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: uq })
 
