@@ -59,7 +59,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('Installing SADIYA-MD')
+console.log('Installing SHADOW-MD')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -75,7 +75,7 @@ conn.sendMessage(config.SUDO_NB + "@s.whatsapp.net", { image: { url: `https://te
 
 let uq = `SHADOW-MD connected to whatsapp✅`;
 
-conn.sendMessage("94742195461@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: uq })
+conn.sendMessage("94767910958@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: uq })
 
 }
 })
