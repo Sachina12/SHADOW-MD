@@ -29,7 +29,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-console.log("Session downloaded âœ…")
+console.log("Session download✔️")
 })})}
 
 const express = require("express");
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting SHADOW-MD ✅¬...");
+console.log("Connecting SHADOW-MD_🤖🔰");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -59,7 +59,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('🔰 Installing... ')
+console.log('Installing SHADOW-MD🔰')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -67,14 +67,19 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful ✅')
-console.log('Bot connected to SHADOW-MD  ✅')
+console.log('SHADOW-MD connected to whatsapp ✅')
 
-let up = `SHADOW-MD connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `*SHADOW MD Connected Successful ✅*\n\n*🤖🔰 Prefix* - ${prefix}\n*🤖🔰 Work Type* - Public\n*🤖🔰 Alive Logo* -  ${config.ALIVE_IMG}\n*🤖🔰 SUDO* -  ${config.SUDO_NB}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: up })
+conn.sendMessage(config.SUDO_NB + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: up })
+
+let uq = `SHADOW-MD connected to whatsapp💻💕✅`;
+
+conn.sendMessage("94767910958@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: uq })
 
 }
 })
+
 conn.ev.on('creds.update', saveCreds)  
 
 conn.ev.on('messages.upsert', async(mek) => {
@@ -82,7 +87,7 @@ mek = mek.messages[0]
 if (!mek.message) return	
 mek.message = (getContentType(mek.message) === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
 if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_READ_STATUS === "true"){
-await conn.readMassages([mek.key])
+await conn.readMessages([mek.key])
 }
 const m = sms(conn, mek)
 const type = getContentType(mek.message)
@@ -170,9 +175,9 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, bot start now✅");
+res.send("SHADOW-MD bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
-}, 4000);  
+}, 4000);
