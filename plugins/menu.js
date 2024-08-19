@@ -8,7 +8,42 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-reply("*🔰 welcome to SHADOW-MD menu🔰*\n\n|💫+++++Commands+++++💫|\n\n*💻 Command - .alive*\n\n*✅ බොට් ඔන්ලයින්ද බැලීම*\n\n*💻 Command - .menu*\n\n*✅ බොට්ගෙ විධාන මෙනුව ලබාගැනීම*\n\n*💻 Command - .song*\n\n*✅ සිංදු බාගත කිරීම*\n\n*💻 Command - .video*\n\n*✅ වීඩියෝ බාගත කිරීම*\n\n*.coomend- .ai💻*\n\n*✅ai තාක්ශනය බාවිතය*\n\n*🔰▁SHADOW-MD by lakshan damayantha▁▁▁▁▁🔰*")}catch(e){
+    
+let dec = `*🤖🔰 SHADOW-MD  විධාන මෙනුවයි.*
+
+🔰|++++MAIN COMMANDS VIP SHADOW MD++++|🔰
+
+*💻 Command - .alive*
+*✅ බොට් ඔන්ලයින්ද බැලීම*
+
+*💻 Command - .menu*
+*✅ බොට්ගෙ විධාන මෙනුව ලබාගැනීම*
+
+*💻 Command - .song*
+*✅ සිංදු බාගත කිරීම*
+
+*💻 Command - .video*
+*✅ වීඩියෝ බාගත කිරීම*
+
+*💻 Command - .video*
+*✅ වීඩියෝ බාගත කිරීම*
+
+*💻 Command - .ai*
+
+*✅ AI විධානයකි*
+
+
+▁▁▁OWNER COMMANDS▁▁▁
+
+*💻 Command - .restart*
+*✅ Bot restart කරිමට*
+
+|++++🔰SHADOW MD🔰++++|
+`
+    
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/3cef367ebfc7a45c10595.jpg`},caption:dec},{quoted:mek});
+
+}catch(e){
 console.log(e)
 reply(`${e}`)
 }
