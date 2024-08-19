@@ -8,6 +8,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
+
 let dec = `*🤴 SHADOW-MD විධාන මෙනුවයි.🔰*
 
 🔰▁+▁MAIN COMMANDS▁+▁🔰
@@ -39,10 +40,9 @@ let dec = `*🤴 SHADOW-MD විධාන මෙනුවයි.🔰*
 
 ▁🔰▁+SHADOW MD+▁🔰▁
 `
-
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg`},caption:dec},{quoted:mek});
-      
-)}catch(e){
+
+}catch(e){
 console.log(e)
 reply(`${e}`)
 }
