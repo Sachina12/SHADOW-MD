@@ -27,7 +27,7 @@ let desc = `*🔰SHADOW-MD SONG DOWNLOADER . .🔰*
 
 🔰🤖 AGO - ${data.ago}
 
-MADE BY SHADOW-MD
+MADE BY SHADOW-MD 👨‍💻
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
@@ -38,7 +38,7 @@ let downloadUrl = down.dl_url
 
 //send audio
 await conn.sendMessage(from,{audio:{url: downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"MADE BY SHADOW-MD"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"audio/mpeg",fileName:data.title + "mp3",caption:"MADE BY SHADOW-MD 👨‍💻"},{quoted:mek})
 }catch(e){
 reply(`${e}`)
 }
@@ -71,7 +71,7 @@ let des = `*🔰 SHADOW-MD VIDEO DOWNLOADER . .🔰*
 
 🔰🤖 AGO - ${data.ago}
 
-MADE BY SHADOW-MD
+MADE BY SHADOW-MD 👨‍💻
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
 
@@ -82,7 +82,7 @@ let downloadUrl = down.dl_url
 
 //send video
 await conn.sendMessage(from,{video:{url: downloadUrl},mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"MADE BY SADIYA-MD"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl},mimetype:"video/mp4",fileName:data.title + "mp4",caption:"MADE BY SHADOW-MD 👨‍💻"},{quoted:mek})
     
 }catch(a){
 reply(`${a}`)
