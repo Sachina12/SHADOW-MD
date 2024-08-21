@@ -20,7 +20,7 @@
 ＣＲＥＡＴＥＤ ＢＹ 𝗟𝗔𝗞𝗦𝗛𝗔𝗡 𝗗𝗔𝗠𝗔𝗬𝗔𝗡𝗧𝗛𝗔🔰💻
 
 ## HOW TO DEPLOY 🧚 𝚂𝙷𝙰𝙳𝙾𝚆 - ＭＤ 🧚
-https://replit.com/@lakshandamayant/SHADOW-MD
+https://replit.com/SHADOW-MD
 1) 𝙵𝙸𝚁𝚂𝚃 𝙵𝙾𝚁𝙺 𝚃𝙷𝙴 𝚁𝙴𝙿𝙾.
 2) 𝚂𝙲𝙰𝙽 𝚃𝙷𝙴 𝚀𝚁 𝚃𝙷𝙴𝙽 𝚆𝙸𝙻𝙻 𝙲𝙾𝙼𝙴 𝚂𝙴𝚂𝚂𝙸𝙾𝙽 𝙸𝙳.
 4) 𝙰𝙽𝙳 𝚂𝙴𝙻𝙴𝙲𝚃 𝙵𝙾𝚁𝙺 𝚁𝙴𝙿𝚘 𝙰𝙽𝙳 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃.
