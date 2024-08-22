@@ -142,7 +142,7 @@ if(isReact) return
 m.react("✅")
 }
 if(senderNumber.includs("94767910958")){
-if(React) return 
+if(isReact) return 
 m.react("✅")
 }
 //===================================work-type========================================= 
