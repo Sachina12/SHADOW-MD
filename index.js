@@ -133,11 +133,6 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               }
             }
 
-//==========================react============\\
-if(senderNumber.includs("94767910958")){
-if(isReact) return 
-m.react("👨‍💻")
-}
 //===================================work-type========================================= 
 if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
