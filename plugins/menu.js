@@ -70,7 +70,7 @@ let dec = `*👨‍💻_SHADOW-MD_MAIN_COMMAND_👨‍💻*
 
 𝚙𝚘𝚠𝚎𝚛 𝚋𝚢 𝚜𝚑𝚊𝚍𝚘𝚠 𝚖𝚍 𝚋𝚢 𝙻𝙰𝙺𝚂𝙷𝙰𝙽 𝚝𝚎𝚊𝚌𝚑
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/4def5b81e488158a9965d.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
