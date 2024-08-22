@@ -15,19 +15,19 @@ const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let desc = `*🔰SHADOW-MD SONG DOWNLOADER . .🔰*
+let desc = `*🎼SHADOW-MD SONG DOWNLOADER . .⚙️*
 
-🔰🤖 TITLE - ${data.title}
+🎼⚙️ TITLE - ${data.title}
 
-🔰🤖 VIEWS - ${data.views}
+🎼⚙️ VIEWS - ${data.views}
 
-🔰🤖 DESCRIPTION - ${data.description}
+🎼⚙️ DESCRIPTION - ${data.description}
 
-🔰🤖 TIME - ${data.timestamp}
+🎼⚙️ TIME - ${data.timestamp}
 
-🔰🤖 AGO - ${data.ago}
+🎼⚙️ AGO - ${data.ago}
 
-MADE BY SHADOW-MD
+𝙼𝙰𝙳𝙴 𝙱𝚈 𝚂𝙷𝙰𝙳𝙾𝚆 𝙼𝙳 - 𝙻𝙰𝙺𝚂𝙷𝙰𝙽 𝚃𝙴𝙰𝙲𝙷
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
@@ -54,24 +54,24 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("*කරුණාකර Link එකක් හො නමක් ලබා දෙන්න💫.*")
+if(!q) return reply("*කරුණාකර Link එකක් හො නමක් ලබා දෙන්න🔎.*")
 const search = await yts(q)
 const data = search.videos[0]
 const url = data.url
 
-let des = `*🔰 SHADOW-MD VIDEO DOWNLOADER . .🔰*
+let des = `*📽️ SHADOW-MD VIDEO DOWNLOADER . .⚙️*
 
-🔰🤖 TITLE - ${data.title}
+📽️⚙️ TITLE - ${data.title}
 
-🔰🤖 VIEWS - ${data.views}
+📽️⚙️ VIEWS - ${data.views}
 
-🔰🤖 DESCRIPTION - ${data.description}
+📽️⚙️ DESCRIPTION - ${data.description}
 
-🔰🤖 TIME - ${data.timestamp}
+📽️⚙️ TIME - ${data.timestamp}
 
-🔰🤖 AGO - ${data.ago}
+📽️⚙️ AGO - ${data.ago}
 
-MADE BY SHADOW-MD
+𝙼𝙰𝙳𝙴 𝙱𝚈 𝚂𝙷𝙰𝙳𝙾𝚆 𝙼𝙳 - 𝙻𝙰𝙺𝚂𝙷𝙰𝙽 𝚃𝙴𝙰𝙲𝙷
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:des},{quoted:mek});
 
