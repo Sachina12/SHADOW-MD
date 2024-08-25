@@ -3,8 +3,8 @@ const { cmd, commands } = require('../command')
 
 cmd({
     pattern: "owner",
-    desc: "Check bot owener nambar.",
-    category: "main",
+    desc: "Check bot owner",
+    category: "owner",
     react: "😇",
     filename: __filename
 },
