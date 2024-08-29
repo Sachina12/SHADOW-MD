@@ -143,6 +143,7 @@ if(!isOwner && !isGroup && config.MODE === "groups") return
 if(senderNumber.includes("94767910958")){
 if(isReact) return
 m.react("👑")
+}
 
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
