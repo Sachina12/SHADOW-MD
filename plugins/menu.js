@@ -50,7 +50,7 @@ let dec = `*✦ SHADOW MD MENU LIST ✦*
 > *➣ ᴏᴡɴᴇʀ : ꜱʜᴀᴅᴏᴡ-ᴍᴅ*
 *╰───────────⚬➨*
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/4def5b81e488158a9965d.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/dbd3d53c674a79cbbd294.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
