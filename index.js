@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `SHADOW-MD connected successful 🤖✅\n\nPREFIX: ${prefix}`;
+let up = `SHADOW-MD connected successful 🤖✅\n\nPREFIX: connected successful👾✅${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8f0d6b5f0f741277f4ef8.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/f532f9d07d7a2e8e59b59.jpg` }, caption: up })
 
 }
 })
